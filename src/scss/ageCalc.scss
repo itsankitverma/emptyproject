@@ -1,0 +1,65 @@
+@import "./mixin.scss";
+
+$fontsize: 40px;
+$color: orange;
+$colorWhite: white;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.outerDiv {
+  background-color: #000;
+  color: $colorWhite;
+  @include center();
+
+  .inner_Age {
+    border: 2px solid $colorWhite;
+    padding: 80px 50px;
+    border-radius: 5%;
+
+    .age_Word {
+      font-size: $fontsize;
+    }
+    .age_Number {
+      color: $color;
+      font-size: $fontsize - 10px;
+    }
+    .age_years {
+      font-size: $fontsize - 20px;
+      color: $colorWhite;
+    }
+    .age_MonthDays {
+      font-size: 10px;
+    }
+    .upepr_card_2 {
+      .cakeColor {
+        border-radius: 50%;
+        color: $colorWhite;
+        background-color: $color;
+        font-size: $fontsize;
+      }
+      .age_Number_MD {
+        color: $colorWhite;
+        font-size: $fontsize - 30px;
+      }
+      .age_Number_ {
+        color: $color;
+        font-size: $fontsize - 10px;
+      }
+    }
+  }
+  .summary {
+    color: $color;
+    font-size: $fontsize - 15px;
+  }
+  .summary_details {
+    // margin-left: 40px;
+    .Summary_maxFont {
+      font-size: $fontsize;
+    }
+    .Summary_maxFont_lower {
+      font-size: $fontsize - 20px;
+    }
+  }
+}
