@@ -80,7 +80,7 @@ function AgeCalculator() {
                 <Col xs="6" sm="4" md="4">
                   <center>
                     <span>Hours</span> <br />
-                    <span className="Summary_maxFont_lower">100</span>
+                    <span className="Summary_maxFont_lower">120</span>
                   </center>
                 </Col>
                 <Col sm="4" md="4">
