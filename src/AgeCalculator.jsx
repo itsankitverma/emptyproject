@@ -74,7 +74,7 @@ function AgeCalculator() {
                 <Col xs="6" sm="4" md="4">
                   <center>
                     <span>Days</span> <br />
-                    <span className="Summary_maxFont_lower">10</span>
+                    <span className="Summary_maxFont_lower">11</span>
                   </center>
                 </Col>
                 <Col xs="6" sm="4" md="4">
